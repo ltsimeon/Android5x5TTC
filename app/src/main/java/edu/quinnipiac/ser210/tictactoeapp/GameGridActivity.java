@@ -85,12 +85,12 @@ public class GameGridActivity extends AppCompatActivity {
         Button resetButton = (Button) findViewById(R.id.resetButton);
         resetButton.setEnabled(false);
         tttBackend = new TicTacToe();
-        drawBoard();
         if (tttBackend.getCurPlayer() == tttBackend.HUMAN_PLAYER) {
             Toast.makeText(getApplicationContext(), "You get to go first!", Toast.LENGTH_LONG).show();
         } else {
             Toast.makeText(getApplicationContext(), "The computer is going to go first.", Toast.LENGTH_LONG).show();
             tttBackend.setMove(tttBackend.COMPUTER_PLAYER,tttBackend.getComputerMove());
         }
+        drawBoard();
     }
 }
