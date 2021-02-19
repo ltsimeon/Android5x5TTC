@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TicTacToeApp</string>
+    <string name="welcome">Welcome to 5x5 Tic Tac Toe! In this game, you have to get 4 in a row to win instead of 3. Once you input your name, press Start Game to begin.</string>
+</resources>
